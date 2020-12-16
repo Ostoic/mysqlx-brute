@@ -1,5 +1,5 @@
 # mysqlx-brute
-Concurrent brute forcer script for the mysqlx protocol
+Another concurrent brute forcer script for the mysqlx protocol. 
 
-# Example running
+# Example
 ![ex](https://i.imgur.com/QEsaHLj.png)
