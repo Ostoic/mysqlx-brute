@@ -9,9 +9,8 @@ from loguru import logger
 parser = argparse.ArgumentParser()
 parser.add_argument('-w', '--wordlist', help='The wordlist to use for password bruting', type=str)
 parser.add_argument('--host', help='The host that the mysqlx server is being hosted on', type=str)
-parser.add_argument('-u', '--username', help='The host that the mysqlx server is being hosted on', type=str,
+parser.add_argument('-u', '--username', help='The username to login with', type=str,
         default='root')
-parser.add_argument('--password', help='The host that the mysqlx server is being hosted on', type=str)
 parser.add_argument('-p', '--port', help='The port of the mysqlx server to connect to', type=int, 
         action='store', default=33060)
 
